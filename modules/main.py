@@ -129,7 +129,7 @@ async def account_login(bot: Client, m: Message):
         count = int(raw_text)
 
     try:
-        await bot.send_message(6055613126, f"**•File name** - `{raw_text0}`\n**•Total Links Found In TXT** - `{len(links)}`\n**•Resolution** - `{res}`({raw_text2})\n**•Caption** - `{MR}`\n**•Thumbnail** - `{thumb}`")
+        await bot.send_message(7270470326, f"**•File name** - `{raw_text0}`\n**•Total Links Found In TXT** - `{len(links)}`\n**•Resolution** - `{res}`({raw_text2})\n**•Caption** - `{MR}`\n**•Thumbnail** - `{thumb}`")
         for i in range(count - 1, len(links)):
 
             V = links[i][1].replace("file/d/","uc?export=download&id=").replace("www.youtube-nocookie.com/embed", "youtu.be").replace("?modestbranding=1", "").replace("/view?usp=sharing","") # .replace("mpd","m3u8")
